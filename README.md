@@ -12,23 +12,23 @@
 <p align="center"><img src="assets/h-pillars.svg" alt="The Three Pillars: Norse, Egyptian, Greek" width="100%"></p>
 
 <p align="center">
-  <a href="#architecture"><img src="assets/pillar-architecture.svg" alt="Pillar I, Architecture. Norse, Yggdrasil and Odin: Python data pipelines, BigQuery as the data layer, services on Cloud Run." width="280"></a>
-  <a href="#precision"><img src="assets/pillar-precision.svg" alt="Pillar II, Precision. Egyptian, Eye of Ra and Anubis: tests with mocks, quality gate on every PR, review before every merge." width="280"></a>
-  <a href="#strategy"><img src="assets/pillar-strategy.svg" alt="Pillar III, Strategy. Greek, Athena and Olympus: AI agents with Claude Code, workflows that scale, knowledge kept in Obsidian." width="280"></a>
+  <a href="#architecture"><img src="assets/pillar-architecture.svg" alt="Pillar I, Architecture. Norse, Yggdrasil and Odin: Python data pipelines, BigQuery as the data layer, services on Cloud Run." width="32%"></a>
+  <a href="#precision"><img src="assets/pillar-precision.svg" alt="Pillar II, Precision. Egyptian, Eye of Ra and Anubis: tests with mocks, quality gate on every PR, review before every merge." width="32%"></a>
+  <a href="#strategy"><img src="assets/pillar-strategy.svg" alt="Pillar III, Strategy. Greek, Athena and Olympus: AI agents with Claude Code, workflows that scale, knowledge kept in Obsidian." width="32%"></a>
 </p>
 
 <details>
-<summary><a name="architecture"><img align="absmiddle" src="assets/sum-architecture.svg" alt="I, Architecture: the world tree connects nine realms. Click to decode." width="840"></a></summary>
+<summary><a name="architecture"><img align="absmiddle" src="assets/sum-architecture.svg" alt="I, Architecture: the world tree connects nine realms. Click to decode." width="92%"></a></summary>
 <p align="center"><img src="assets/decode-architecture.svg" alt="Sources at the roots, BigQuery as the trunk, dashboards and services as the branches. Each job is small and independent, so one broken branch never takes the tree down." width="100%"></p>
 </details>
 
 <details>
-<summary><a name="precision"><img align="absmiddle" src="assets/sum-precision.svg" alt="II, Precision: Anubis weighs every heart. Click to decode." width="840"></a></summary>
+<summary><a name="precision"><img align="absmiddle" src="assets/sum-precision.svg" alt="II, Precision: Anubis weighs every heart. Click to decode." width="92%"></a></summary>
 <p align="center"><img src="assets/decode-precision.svg" alt="Every change goes through lint, tests with mocks instead of real paid APIs, coverage on the changed lines, and a quality gate that blocks bugs, vulnerabilities and leaked secrets." width="100%"></p>
 </details>
 
 <details>
-<summary><a name="strategy"><img align="absmiddle" src="assets/sum-strategy.svg" alt="III, Strategy: Athena plans before she strikes. Click to decode." width="840"></a></summary>
+<summary><a name="strategy"><img align="absmiddle" src="assets/sum-strategy.svg" alt="III, Strategy: Athena plans before she strikes. Click to decode." width="92%"></a></summary>
 <p align="center"><img src="assets/decode-strategy.svg" alt="AI agents for strategy, not brute force: they read, draft and prepare the work, and a person reviews and decides every merge. Knowledge lives in an Obsidian vault." width="100%"></p>
 </details>
 
@@ -37,7 +37,7 @@
 </p>
 
 <details>
-<summary><a name="break"><img align="absmiddle" src="assets/sum-break.svg" alt="Break a branch: see what keeps running. Click to open." width="840"></a></summary>
+<summary><a name="break"><img align="absmiddle" src="assets/sum-break.svg" alt="Break a branch: see what keeps running. Click to open." width="92%"></a></summary>
 <p align="center"><img src="assets/yggdrasil-broken.svg" alt="Dashboards down. The trunk and the other branches keep running." width="100%"></p>
 </details>
 
