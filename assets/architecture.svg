@@ -1,51 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-label="Data flow: sources, ingestion jobs, BigQuery, FastAPI services, dashboards, with a CI quality gate">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="860" height="320" role="img" aria-label="Animated data flow: sources, ingestion jobs, BigQuery, FastAPI services, dashboards, with a CI quality gate and AI agents">
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0L10 5L0 10z" fill="#22d3ee"/>
-    </marker>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#22d3ee" stroke-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f59e0b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="gateClip"><rect x="190" y="252" width="300" height="38"/></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
   </defs>
-  <rect width="860" height="300" fill="#080c11"/>
-  <rect x="0.5" y="0.5" width="859" height="299" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
-  <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace">
-    <text x="16" y="22" font-size="10" fill="#22d3ee" letter-spacing="2">SYSTEM ARCHITECTURE · DATA FLOW  (edit nodes to match your stack)</text>
 
+  <rect width="860" height="320" fill="#080c11"/>
+  <rect width="860" height="320" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="859" height="319" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <path d="M0 20V0H20M840 0H860V20M860 300V320H840M20 320H0V300" fill="none" stroke="#22d3ee" stroke-width="2"/>
+
+  <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace">
+    <text x="20" y="26" font-size="10" fill="#22d3ee" letter-spacing="2">SYSTEM ARCHITECTURE · LIVE DATA FLOW</text>
+    <circle cx="820" cy="22" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="808" y="26" font-size="9" fill="#22c55e" text-anchor="end" letter-spacing="2">FLOWING</text>
+
+    <!-- AI agents -->
+    <rect x="530" y="44" width="130" height="44" fill="#0d141c" stroke="#94a3b8" stroke-dasharray="4 3">
+      <animate attributeName="stroke-opacity" values="1;0.35;1" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="545" y="63" font-size="9" fill="#f59e0b" letter-spacing="2">AGENTS</text>
+    <text x="545" y="79" font-size="12" fill="#e2e8f0">Claude Code</text>
+    <path d="M595 88V128" stroke="#94a3b8" stroke-dasharray="4 4" fill="none">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- nodes -->
     <g fill="#0d141c" stroke="#22d3ee" stroke-width="1.2">
-      <rect x="20"  y="110" width="130" height="80"/>
-      <rect x="190" y="110" width="130" height="80"/>
-      <rect x="360" y="110" width="130" height="80"/>
-      <rect x="530" y="110" width="130" height="80"/>
-      <rect x="700" y="110" width="140" height="80"/>
+      <rect x="20"  y="130" width="130" height="86"/>
+      <rect x="190" y="130" width="130" height="86"/>
+      <rect x="360" y="130" width="130" height="86"/>
+      <rect x="530" y="130" width="130" height="86"/>
+      <rect x="700" y="130" width="140" height="86"/>
+    </g>
+    <g fill="none" stroke="#22d3ee" stroke-width="2">
+      <path d="M20 144V130H34M136 130H150V144M150 202V216H136M34 216H20V202"/>
+      <path d="M190 144V130H204M306 130H320V144M320 202V216H306M204 216H190V202"/>
+      <path d="M360 144V130H374M476 130H490V144M490 202V216H476M374 216H360V202"/>
+      <path d="M530 144V130H544M646 130H660V144M660 202V216H646M544 216H530V202"/>
+      <path d="M700 144V130H714M826 130H840V144M840 202V216H826M714 216H700V202"/>
     </g>
 
     <g fill="#f59e0b" font-size="9" letter-spacing="2">
-      <text x="30" y="128">01 · SOURCES</text>
-      <text x="200" y="128">02 · INGEST</text>
-      <text x="370" y="128">03 · STORE</text>
-      <text x="540" y="128">04 · SERVE</text>
-      <text x="710" y="128">05 · INTERFACE</text>
+      <text x="30" y="150">SOURCES</text>
+      <text x="200" y="150">INGEST</text>
+      <text x="370" y="150">STORE</text>
+      <text x="540" y="150">SERVE</text>
+      <text x="710" y="150">INTERFACE</text>
     </g>
     <g fill="#e2e8f0" font-size="13">
-      <text x="30" y="152">SAP HANA</text><text x="30" y="170">APIs · Sheets</text>
-      <text x="200" y="152">Python jobs</text><text x="200" y="170">Poetry · Cloud Run</text>
-      <text x="370" y="152">BigQuery</text><text x="370" y="170">raw → core → dm</text>
-      <text x="540" y="152">FastAPI</text><text x="540" y="170">Cloud Run</text>
-      <text x="710" y="152">Dashboards</text><text x="710" y="170">Web · Logistics</text>
+      <text x="30" y="178">SAP HANA</text><text x="30" y="196">APIs · Sheets</text>
+      <text x="200" y="178">Python jobs</text><text x="200" y="196">Poetry · Cloud Run</text>
+      <text x="370" y="178">BigQuery</text><text x="370" y="196">raw → core → dm</text>
+      <text x="540" y="178">FastAPI</text><text x="540" y="196">Cloud Run</text>
+      <text x="710" y="178">Dashboards</text><text x="710" y="196">Web · Logistics</text>
     </g>
 
-    <g stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arr)">
-      <path d="M150 150H188"/><path d="M320 150H358"/><path d="M490 150H528"/><path d="M660 150H698"/>
+    <!-- status LEDs -->
+    <g fill="#22c55e">
+      <circle cx="136" cy="146" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="306" cy="146" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="476" cy="146" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="646" cy="146" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="826" cy="146" r="2.5"><animate attributeName="opacity" values="1;0.25;1" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
     </g>
 
-    <g fill="#0d141c" stroke="#f59e0b" stroke-width="1.2">
-      <rect x="190" y="236" width="300" height="38"/>
+    <!-- connections -->
+    <g stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+      <path d="M150 173H190"/><path d="M320 173H360"/><path d="M490 173H530"/><path d="M660 173H700"/>
     </g>
-    <text x="204" y="259" font-size="12" fill="#e2e8f0">CI quality gate · ruff · tests ≥ 80% · secrets scan</text>
-    <path d="M255 236V192M425 236V192" stroke="#f59e0b" stroke-dasharray="4 4" fill="none"/>
+    <g stroke="#22d3ee" stroke-width="1.5" fill="none" stroke-dasharray="5 5">
+      <path d="M150 173H190"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.9s" repeatCount="indefinite"/></path>
+      <path d="M320 173H360"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.9s" repeatCount="indefinite"/></path>
+      <path d="M490 173H530"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.9s" repeatCount="indefinite"/></path>
+      <path d="M660 173H700"><animate attributeName="stroke-dashoffset" from="0" to="-20" dur="0.9s" repeatCount="indefinite"/></path>
+    </g>
 
-    <g fill="#0d141c" stroke="#64748b" stroke-width="1" stroke-dasharray="4 3">
-      <rect x="530" y="36" width="130" height="44"/>
+    <!-- data packets -->
+    <g fill="#f59e0b">
+      <circle r="3.5"><animateMotion dur="1.8s" begin="0s" repeatCount="indefinite" path="M150 173H190"/></circle>
+      <circle r="3.5"><animateMotion dur="1.8s" begin="0.45s" repeatCount="indefinite" path="M320 173H360"/></circle>
+      <circle r="3.5"><animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M490 173H530"/></circle>
+      <circle r="3.5"><animateMotion dur="1.8s" begin="1.35s" repeatCount="indefinite" path="M660 173H700"/></circle>
     </g>
-    <text x="540" y="62" font-size="12" fill="#94a3b8">Claude · AI agents</text>
-    <path d="M595 80V108" stroke="#64748b" stroke-dasharray="4 4" fill="none"/>
+    <g fill="#f59e0b" filter="url(#soft)" opacity="0.7">
+      <circle r="4"><animateMotion dur="1.8s" begin="0s" repeatCount="indefinite" path="M150 173H190"/></circle>
+      <circle r="4"><animateMotion dur="1.8s" begin="0.45s" repeatCount="indefinite" path="M320 173H360"/></circle>
+      <circle r="4"><animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M490 173H530"/></circle>
+      <circle r="4"><animateMotion dur="1.8s" begin="1.35s" repeatCount="indefinite" path="M660 173H700"/></circle>
+    </g>
+
+    <!-- CI gate -->
+    <rect x="190" y="252" width="300" height="38" fill="#0d141c" stroke="#f59e0b" stroke-width="1.2"/>
+    <g clip-path="url(#gateClip)">
+      <rect x="190" y="252" width="90" height="38" fill="url(#scan)">
+        <animate attributeName="x" values="100;490" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <text x="204" y="268" font-size="9" fill="#f59e0b" letter-spacing="2">QUALITY GATE</text>
+    <text x="204" y="283" font-size="11" fill="#e2e8f0">ruff · tests ≥ 80% · secrets scan</text>
+    <g stroke="#f59e0b" stroke-dasharray="4 4" fill="none">
+      <path d="M255 252V218"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/></path>
+      <path d="M425 252V218"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/></path>
+    </g>
+
+    <text x="840" y="306" font-size="9" fill="#64748b" text-anchor="end" letter-spacing="1">generic flow · internal repos are private</text>
   </g>
 </svg>

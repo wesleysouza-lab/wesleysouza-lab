@@ -67,6 +67,47 @@ engineering: tests first, small PRs and no secrets in code.
 
 <sub>Generic flow of the systems I work on. Internal repositories are private, so details are omitted on purpose.</sub>
 
+<details>
+<summary><code>INSPECT MODULE</code> · click a stage to expand</summary>
+<br>
+
+<details>
+<summary><b>01 · Sources</b> <code>SAP HANA · APIs · Sheets</code></summary>
+<br>Operational data comes from the ERP (SAP HANA), partner APIs and spreadsheets. Every source is read with the least access it needs, and credentials live in a secret manager, never in code.
+</details>
+
+<details>
+<summary><b>02 · Ingest</b> <code>Python · Poetry · Cloud Run</code></summary>
+<br>Each job is an independent Poetry project with its own <code>src/</code> and <code>tests/</code>, deployed to Cloud Run. Jobs validate external input before writing anything.
+</details>
+
+<details>
+<summary><b>03 · Store</b> <code>BigQuery</code></summary>
+<br>Data moves through layers: <code>raw</code> keeps what arrived, <code>core</code> cleans and models it, <code>dm</code> serves each business question.
+</details>
+
+<details>
+<summary><b>04 · Serve</b> <code>FastAPI · Cloud Run</code></summary>
+<br>Small FastAPI services expose the data to the interfaces, with authentication in front and one responsibility per service.
+</details>
+
+<details>
+<summary><b>05 · Interface</b> <code>Dashboards</code></summary>
+<br>Internal dashboards for operations teams. Front-end changes are checked with browser tests (Playwright) before they count as verified.
+</details>
+
+<details>
+<summary><b>CI · Quality gate</b> <code>ruff · tests · secrets scan</code></summary>
+<br>Every pull request is checked on the lines it changes: lint, tests with at least 80% coverage, secret scanning and complexity. A human decides every merge.
+</details>
+
+<details>
+<summary><b>AI agents</b> <code>Claude Code</code></summary>
+<br>Agents prepare changes and run checks. People review and decide.
+</details>
+
+</details>
+
 <img src="assets/divider.svg" alt="" width="100%">
 
 ## `// 05 · ACTIVE PROJECTS`
