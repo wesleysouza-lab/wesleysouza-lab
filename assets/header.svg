@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Wesley Souza, developer profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/>
+      <stop offset="1" stop-color="#0d131b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <rect width="900" height="220" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="899" height="219" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <path d="M0 24V0H24M876 0H900V24M900 196V220H876M24 220H0V196" fill="none" stroke="#22d3ee" stroke-width="2"/>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+    <text x="48" y="44" font-size="11" fill="#22d3ee" letter-spacing="3">// SYSTEM HEADER · BUILD 2026.10</text>
+    <text x="48" y="104" font-size="46" font-weight="700" fill="#f1f5f9" letter-spacing="6">WESLEY SOUZA</text>
+    <text x="48" y="132" font-size="13" fill="#94a3b8">Data engineer · AI &amp; Technology team</text>
+    <line x1="48" y1="148" x2="440" y2="148" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <rect x="48" y="146" width="36" height="4" fill="#f59e0b"/>
+    <text x="48" y="172" font-size="13" fill="#e2e8f0">HANDLE: @wesleysouza-lab</text>
+    <text x="48" y="192" font-size="12" fill="#94a3b8">AI &amp; Software Engineering · Data pipelines · Automation</text>
+
+    <circle cx="468" cy="40" r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="480" y="44" font-size="11" fill="#22c55e" letter-spacing="2">ONLINE</text>
+  </g>
+
+  <g transform="translate(730 110)">
+    <circle r="100" fill="url(#glow)"/>
+    <circle r="82" fill="none" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <circle r="64" fill="none" stroke="#22d3ee" stroke-opacity="0.6" stroke-dasharray="3 6"/>
+    <circle r="44" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <circle r="22" fill="#0b1118" stroke="#22d3ee"/>
+    <circle r="6" fill="#22d3ee"/>
+    <g stroke="#22d3ee" stroke-opacity="0.7">
+      <path d="M0 -90V-76M0 90V76M-90 0H-76M90 0H76"/>
+      <path d="M-63.6 -63.6L-54 -54M63.6 63.6L54 54M-63.6 63.6L-54 54M63.6 -63.6L54 -54" stroke-opacity="0.35"/>
+    </g>
+    <path d="M0 0L64 -64" stroke="#f59e0b" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <rect x="-3" y="-93" width="6" height="6" fill="#ef4444"/>
+  </g>
+</svg>

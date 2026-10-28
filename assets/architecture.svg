@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-label="Data flow: sources, ingestion jobs, BigQuery, FastAPI services, dashboards, with a CI quality gate">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+  <rect width="860" height="300" fill="#080c11"/>
+  <rect x="0.5" y="0.5" width="859" height="299" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace">
+    <text x="16" y="22" font-size="10" fill="#22d3ee" letter-spacing="2">SYSTEM ARCHITECTURE · DATA FLOW  (edit nodes to match your stack)</text>
+
+    <g fill="#0d141c" stroke="#22d3ee" stroke-width="1.2">
+      <rect x="20"  y="110" width="130" height="80"/>
+      <rect x="190" y="110" width="130" height="80"/>
+      <rect x="360" y="110" width="130" height="80"/>
+      <rect x="530" y="110" width="130" height="80"/>
+      <rect x="700" y="110" width="140" height="80"/>
+    </g>
+
+    <g fill="#f59e0b" font-size="9" letter-spacing="2">
+      <text x="30" y="128">01 · SOURCES</text>
+      <text x="200" y="128">02 · INGEST</text>
+      <text x="370" y="128">03 · STORE</text>
+      <text x="540" y="128">04 · SERVE</text>
+      <text x="710" y="128">05 · INTERFACE</text>
+    </g>
+    <g fill="#e2e8f0" font-size="13">
+      <text x="30" y="152">SAP HANA</text><text x="30" y="170">APIs · Sheets</text>
+      <text x="200" y="152">Python jobs</text><text x="200" y="170">Poetry · Cloud Run</text>
+      <text x="370" y="152">BigQuery</text><text x="370" y="170">raw → core → dm</text>
+      <text x="540" y="152">FastAPI</text><text x="540" y="170">Cloud Run</text>
+      <text x="710" y="152">Dashboards</text><text x="710" y="170">Web · Logistics</text>
+    </g>
+
+    <g stroke="#22d3ee" stroke-width="1.5" fill="none" marker-end="url(#arr)">
+      <path d="M150 150H188"/><path d="M320 150H358"/><path d="M490 150H528"/><path d="M660 150H698"/>
+    </g>
+
+    <g fill="#0d141c" stroke="#f59e0b" stroke-width="1.2">
+      <rect x="190" y="236" width="300" height="38"/>
+    </g>
+    <text x="204" y="259" font-size="12" fill="#e2e8f0">CI quality gate · ruff · tests ≥ 80% · secrets scan</text>
+    <path d="M255 236V192M425 236V192" stroke="#f59e0b" stroke-dasharray="4 4" fill="none"/>
+
+    <g fill="#0d141c" stroke="#64748b" stroke-width="1" stroke-dasharray="4 3">
+      <rect x="530" y="36" width="130" height="44"/>
+    </g>
+    <text x="540" y="62" font-size="12" fill="#94a3b8">Claude · AI agents</text>
+    <path d="M595 80V108" stroke="#64748b" stroke-dasharray="4 4" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="320" height="300" role="img" aria-label="Skill radar diagnostic">
+  <rect width="320" height="300" fill="#0a0f15"/>
+  <rect x="0.5" y="0.5" width="319" height="299" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="10">
+    <text x="14" y="20" fill="#22d3ee" letter-spacing="2">DIAGNOSTIC · FOCUS MAP</text>
+    <g transform="translate(160 156)" fill="none" stroke="#22d3ee">
+      <polygon points="0,-100 95,-31 59,81 -59,81 -95,-31" stroke-opacity="0.2"/>
+      <polygon points="0,-75 71,-23 44,61 -44,61 -71,-23" stroke-opacity="0.25"/>
+      <polygon points="0,-50 48,-15 29,40 -29,40 -48,-15" stroke-opacity="0.3"/>
+      <polygon points="0,-25 24,-8 15,20 -15,20 -24,-8" stroke-opacity="0.35"/>
+      <path d="M0 0V-100M0 0L95 -31M0 0L59 81M0 0L-59 81M0 0L-95 -31" stroke-opacity="0.25"/>
+      <!-- EDIT: values are self-assessed focus, not measured. Radius 100 = max. -->
+      <polygon points="0,-88 70,-23 38,52 -45,62 -62,-20" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-width="1.5"/>
+      <g fill="#f59e0b" stroke="none">
+        <circle cx="0" cy="-88" r="3"/><circle cx="70" cy="-23" r="3"/><circle cx="38" cy="52" r="3"/>
+        <circle cx="-45" cy="62" r="3"/><circle cx="-62" cy="-20" r="3"/>
+      </g>
+    </g>
+    <g fill="#e2e8f0" text-anchor="middle">
+      <text x="160" y="46">PYTHON</text>
+      <text x="268" y="126" text-anchor="start">DATA</text>
+      <text x="236" y="250">CLOUD</text>
+      <text x="84" y="250">AI</text>
+      <text x="14" y="126" text-anchor="start">BACKEND</text>
+    </g>
+    <text x="14" y="290" fill="#64748b">self-assessed · edit values in the SVG</text>
+  </g>
+</svg>
