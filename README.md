@@ -106,7 +106,6 @@ engineering: tests first, small PRs and no secrets in code.
 <div align="center">
 
 <a href="https://github.com/wesleysouza-lab"><img height="165" alt="GitHub stats: commits, PRs, issues, stars" src="https://github-readme-stats.vercel.app/api?username=wesleysouza-lab&show_icons=true&hide_border=true&bg_color=080c11&title_color=22d3ee&icon_color=f59e0b&text_color=e2e8f0&ring_color=22d3ee&count_private=true"></a>
-<a href="https://github.com/wesleysouza-lab"><img height="165" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wesleysouza-lab&layout=compact&hide_border=true&bg_color=080c11&title_color=22d3ee&text_color=e2e8f0"></a>
 
 </div>
 
