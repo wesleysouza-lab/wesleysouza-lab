@@ -12,14 +12,7 @@
 <tr>
 <td valign="top" width="60%">
 
-```text
-ID ............ Wesley Souza
-HANDLE ........ @wesleysouza-lab
-UNIT .......... AI & Technology team · RBBR
-ROLE .......... TODO: your title
-BASE .......... Brazil (UTC-3)
-LANGUAGES ..... Portuguese (native) · English (technical)
-```
+<img src="assets/operator-card.svg" alt="Operator ID card: Wesley Souza, @wesleysouza-lab, AI and Technology team at RBBR, role TODO, based in Brazil (UTC-3), Portuguese and English" width="100%">
 
 I build the data and automation layer that turns operational systems into
 decisions: pipelines, APIs and dashboards. I like boring, verifiable

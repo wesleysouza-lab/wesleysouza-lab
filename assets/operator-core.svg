@@ -1,27 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="320" height="300" role="img" aria-label="Skill radar diagnostic">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="320" height="300" role="img" aria-label="Skill radar diagnostic: Python, Data, Cloud, AI, Backend">
+  <defs>
+    <linearGradient id="wedge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0.45"/></linearGradient>
+    <clipPath id="disc"><circle cx="0" cy="0" r="100"/></clipPath>
+  </defs>
   <rect width="320" height="300" fill="#0a0f15"/>
-  <rect x="0.5" y="0.5" width="319" height="299" fill="none" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <rect x="0.5" y="0.5" width="319" height="299" fill="none" stroke="#22d3ee" stroke-opacity="0.5"/>
+  <path d="M0 16V0H16M304 0H320V16M320 284V300H304M16 300H0V284" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
   <g font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="10">
-    <text x="14" y="20" fill="#22d3ee" letter-spacing="2">DIAGNOSTIC · FOCUS MAP</text>
+    <text x="14" y="22" fill="#22d3ee" letter-spacing="2">DIAGNOSTIC · FOCUS MAP</text>
+    <circle cx="300" cy="18" r="3" fill="#22c55e"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
     <g transform="translate(160 156)" fill="none" stroke="#22d3ee">
-      <polygon points="0,-100 95,-31 59,81 -59,81 -95,-31" stroke-opacity="0.2"/>
-      <polygon points="0,-75 71,-23 44,61 -44,61 -71,-23" stroke-opacity="0.25"/>
-      <polygon points="0,-50 48,-15 29,40 -29,40 -48,-15" stroke-opacity="0.3"/>
-      <polygon points="0,-25 24,-8 15,20 -15,20 -24,-8" stroke-opacity="0.35"/>
-      <path d="M0 0V-100M0 0L95 -31M0 0L59 81M0 0L-59 81M0 0L-95 -31" stroke-opacity="0.25"/>
+      <circle r="100" stroke-opacity="0.25"/>
+      <circle r="75" stroke-opacity="0.2"/>
+      <circle r="50" stroke-opacity="0.25"/>
+      <circle r="25" stroke-opacity="0.3"/>
+      <path d="M-100 0H100M0 -100V100" stroke-opacity="0.2"/>
+      <circle r="100" stroke-opacity="0.6" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="40s" repeatCount="indefinite"/></circle>
+      <g clip-path="url(#disc)">
+        <g><path d="M0 0L100 0A100 100 0 0 0 70.7 -70.7Z" fill="url(#wedge)" stroke="none" transform="rotate(-45)"/><path d="M0 0H100" stroke="#a5f3fc" stroke-width="1.5"/>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></g>
+      </g>
       <!-- EDIT: values are self-assessed focus, not measured. Radius 100 = max. -->
-      <polygon points="0,-88 70,-23 38,52 -45,62 -62,-20" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-width="1.5"/>
+      <g>
+        <polygon points="0,-88 70,-23 38,52 -45,62 -62,-20" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-width="1.5"/>
+        <animateTransform attributeName="transform" type="scale" values="1;1.05;1" dur="4s" repeatCount="indefinite"/>
+      </g>
       <g fill="#f59e0b" stroke="none">
-        <circle cx="0" cy="-88" r="3"/><circle cx="70" cy="-23" r="3"/><circle cx="38" cy="52" r="3"/>
-        <circle cx="-45" cy="62" r="3"/><circle cx="-62" cy="-20" r="3"/>
+        <circle cx="0" cy="-88" r="3"/><circle cx="70" cy="-23" r="3"/><circle cx="38" cy="52" r="3"/><circle cx="-45" cy="62" r="3"/><circle cx="-62" cy="-20" r="3"/>
+      </g>
+      <g stroke="#f59e0b" stroke-width="1">
+        <circle cx="0" cy="-88" r="3" opacity="0"><animate attributeName="r" values="3;11" dur="2.5s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.5s" begin="0s" repeatCount="indefinite"/></circle>
+        <circle cx="70" cy="-23" r="3" opacity="0"><animate attributeName="r" values="3;11" dur="2.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+        <circle cx="38" cy="52" r="3" opacity="0"><animate attributeName="r" values="3;11" dur="2.5s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.5s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle cx="-45" cy="62" r="3" opacity="0"><animate attributeName="r" values="3;11" dur="2.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="-62" cy="-20" r="3" opacity="0"><animate attributeName="r" values="3;11" dur="2.5s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2.5s" begin="2s" repeatCount="indefinite"/></circle>
       </g>
     </g>
-    <g fill="#e2e8f0" text-anchor="middle">
-      <text x="160" y="46">PYTHON</text>
-      <text x="268" y="126" text-anchor="start">DATA</text>
+    <g fill="#e2e8f0">
+      <text x="160" y="46" text-anchor="middle">PYTHON</text>
+      <text x="268" y="126">DATA</text>
       <text x="236" y="250">CLOUD</text>
       <text x="84" y="250">AI</text>
-      <text x="14" y="126" text-anchor="start">BACKEND</text>
+      <text x="14" y="126">BACKEND</text>
     </g>
     <text x="14" y="290" fill="#64748b">self-assessed · edit values in the SVG</text>
   </g>
