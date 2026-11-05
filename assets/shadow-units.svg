@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230" role="img" aria-label="Shadow army units: Vesper, core project; Onyx, automation project; Umbra, infrastructure project. Projects are assigned in CUSTOMIZE.md.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0a1c"/><stop offset="1" stop-color="#07060b"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M14 1H846L859 14V216L846 229H14L1 216V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/><path d="M1 30V14L14 1H44M816 1H846L859 14V30M859 200V216L846 229H816M44 229H14L1 216V200" fill="none" stroke="#c4b5fd" stroke-width="2"/><path d="M359 16H500L510 26V38H349V26Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.8"/><text x="430" y="31" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12" fill="#ede9fe" letter-spacing="6" text-anchor="middle">SHADOW ARMY</text>
+<defs><linearGradient id="mist" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.5"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient></defs>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+<path d="M38 56H286V204L278 212H30V64Z" fill="#0b0814" stroke="#a78bfa" stroke-opacity="0.6"/>
+<ellipse cx="90" cy="190" rx="40" ry="8" fill="#7c3aed" opacity="0.35" filter="url(#glow)"><animate attributeName="rx" values="34;46;34" dur="3s" begin="0.0s" repeatCount="indefinite"/></ellipse>
+<rect x="54" y="96" width="72" height="96" fill="url(#mist)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="0.0s" repeatCount="indefinite"/></rect>
+<g transform="translate(50 84) scale(4)"><path d="M10 1.5C6 1.5 3.6 4.4 3.6 8.2V14.5L2.2 19L5 17.4L7.4 19.2L10 17.2L12.6 19.2L15 17.4L17.8 19L16.4 14.5V8.2C16.4 4.4 14 1.5 10 1.5Z" fill="#100a1e" stroke="#a78bfa" stroke-width="0.35"/><path d="M5.2 4.6L3.4 1.2L6.8 3.4ZM14.8 4.6L16.6 1.2L13.2 3.4Z" fill="#a78bfa"/><path d="M6.2 8.6L8.8 9.6L6.4 10.4Z M13.8 8.6L11.2 9.6L13.6 10.4Z" fill="#a78bfa"><animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.0s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -0.6;0 0" dur="3s" begin="0.0s" repeatCount="indefinite"/></g>
+<text x="154" y="92" font-size="9" fill="#9b95b8" letter-spacing="2">UNIT</text>
+<text x="154" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#f5f3ff" letter-spacing="2">VESPER</text>
+<text x="154" y="136" font-size="9" fill="#a78bfa" letter-spacing="1.5">CORE PROJECT</text>
+<text x="154" y="164" font-size="9" fill="#9b95b8">ASSIGNED</text>
+<text x="154" y="180" font-size="10" fill="#e879f9">TODO: public repo</text>
+<path d="M308 56H556V204L548 212H300V64Z" fill="#0b0814" stroke="#60a5fa" stroke-opacity="0.6"/>
+<ellipse cx="360" cy="190" rx="40" ry="8" fill="#7c3aed" opacity="0.35" filter="url(#glow)"><animate attributeName="rx" values="34;46;34" dur="3s" begin="0.5s" repeatCount="indefinite"/></ellipse>
+<rect x="324" y="96" width="72" height="96" fill="url(#mist)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+<g transform="translate(320 84) scale(4)"><path d="M10 1.5C6 1.5 3.6 4.4 3.6 8.2V14.5L2.2 19L5 17.4L7.4 19.2L10 17.2L12.6 19.2L15 17.4L17.8 19L16.4 14.5V8.2C16.4 4.4 14 1.5 10 1.5Z" fill="#100a1e" stroke="#60a5fa" stroke-width="0.35"/><path d="M5.2 4.6L3.4 1.2L6.8 3.4ZM14.8 4.6L16.6 1.2L13.2 3.4Z" fill="#60a5fa"/><path d="M6.2 8.6L8.8 9.6L6.4 10.4Z M13.8 8.6L11.2 9.6L13.6 10.4Z" fill="#60a5fa"><animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.4s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -0.6;0 0" dur="3s" begin="0.5s" repeatCount="indefinite"/></g>
+<text x="424" y="92" font-size="9" fill="#9b95b8" letter-spacing="2">UNIT</text>
+<text x="424" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#f5f3ff" letter-spacing="2">ONYX</text>
+<text x="424" y="136" font-size="9" fill="#60a5fa" letter-spacing="1.5">AUTOMATION PROJECT</text>
+<text x="424" y="164" font-size="9" fill="#9b95b8">ASSIGNED</text>
+<text x="424" y="180" font-size="10" fill="#e879f9">TODO: public repo</text>
+<path d="M578 56H826V204L818 212H570V64Z" fill="#0b0814" stroke="#e879f9" stroke-opacity="0.6"/>
+<ellipse cx="630" cy="190" rx="40" ry="8" fill="#7c3aed" opacity="0.35" filter="url(#glow)"><animate attributeName="rx" values="34;46;34" dur="3s" begin="1.0s" repeatCount="indefinite"/></ellipse>
+<rect x="594" y="96" width="72" height="96" fill="url(#mist)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1.0s" repeatCount="indefinite"/></rect>
+<g transform="translate(590 84) scale(4)"><path d="M10 1.5C6 1.5 3.6 4.4 3.6 8.2V14.5L2.2 19L5 17.4L7.4 19.2L10 17.2L12.6 19.2L15 17.4L17.8 19L16.4 14.5V8.2C16.4 4.4 14 1.5 10 1.5Z" fill="#100a1e" stroke="#e879f9" stroke-width="0.35"/><path d="M5.2 4.6L3.4 1.2L6.8 3.4ZM14.8 4.6L16.6 1.2L13.2 3.4Z" fill="#e879f9"/><path d="M6.2 8.6L8.8 9.6L6.4 10.4Z M13.8 8.6L11.2 9.6L13.6 10.4Z" fill="#e879f9"><animate attributeName="opacity" values="1;0.3;1" dur="2s" begin="0.8s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -0.6;0 0" dur="3s" begin="1.0s" repeatCount="indefinite"/></g>
+<text x="694" y="92" font-size="9" fill="#9b95b8" letter-spacing="2">UNIT</text>
+<text x="694" y="116" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="800" fill="#f5f3ff" letter-spacing="2">UMBRA</text>
+<text x="694" y="136" font-size="9" fill="#e879f9" letter-spacing="1.5">INFRASTRUCTURE PROJECT</text>
+<text x="694" y="164" font-size="9" fill="#9b95b8">ASSIGNED</text>
+<text x="694" y="180" font-size="10" fill="#e879f9">TODO: public repo</text>
+</g></svg>

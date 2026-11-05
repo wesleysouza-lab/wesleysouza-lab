@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" width="420" height="180" role="img" aria-label="SIDE QUEST: TODO: side project. Explore a new technology. Link a public repo. Status: TODO. Reward: +150 XP (symbolic).">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0a1c"/><stop offset="1" stop-color="#07060b"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M14 1H406L419 14V166L406 179H14L1 166V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/><path d="M1 30V14L14 1H44M376 1H406L419 14V30M419 150V166L406 179H376M44 179H14L1 166V150" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+<circle cx="34" cy="34" r="10" fill="none" stroke="#a78bfa"/><text x="34" y="38" font-size="11" font-weight="700" fill="#a78bfa" text-anchor="middle">!</text>
+<text x="54" y="38" font-size="11" fill="#a78bfa" letter-spacing="3">[ SIDE QUEST ]</text>
+<g opacity="0"><animate attributeName="opacity" values="0;1;1;0.4;1" keyTimes="0;0.05;0.6;0.8;1" dur="5s" begin="0.8s" repeatCount="indefinite"/><text x="396" y="38" font-size="9" fill="#a78bfa" text-anchor="end" letter-spacing="2">NEW</text></g>
+<line x1="24" y1="52" x2="396" y2="52" stroke="#a78bfa" stroke-opacity="0.35"/>
+<text x="24" y="78" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#f5f3ff">TODO: side project</text>
+<text x="24" y="100" font-size="11" fill="#c9c4e0">Explore a new technology. Link a public repo.</text>
+<text x="24" y="142" font-size="9" fill="#9b95b8" letter-spacing="2">TECH</text><text x="70" y="142" font-size="10" fill="#ede9fe">TODO</text>
+<text x="24" y="162" font-size="9" fill="#9b95b8" letter-spacing="2">STATUS</text><text x="80" y="162" font-size="10" fill="#a78bfa" letter-spacing="1">TODO</text>
+<path d="M300 146H392L400 154V168H292V154Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.7"/>
+<text x="346" y="162" font-size="10" fill="#f5f3ff" text-anchor="middle">+150 XP</text>
+<text x="396" y="174" font-size="7.5" fill="#6b6585" text-anchor="end">symbolic reward</text>
+</g></svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" width="860" height="330" role="img" aria-label="Skill tree. Programming: Python, JavaScript, SQL. Backend: FastAPI, Poetry, Pytest. Frontend: HTML5, CSS3, Playwright. Database: BigQuery, SAP HANA. Devops: Google Cloud, Cloud Run, GitHub Actions, Git. Automation: Data pipelines, AI agents, Linux (WSL).">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0a1c"/><stop offset="1" stop-color="#07060b"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter></defs><path d="M14 1H846L859 14V316L846 329H14L1 316V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/><path d="M1 30V14L14 1H44M816 1H846L859 14V30M859 300V316L846 329H816M44 329H14L1 316V300" fill="none" stroke="#c4b5fd" stroke-width="2"/><path d="M365 16H495L505 26V38H355V26Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.8"/><text x="430" y="31" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12" fill="#ede9fe" letter-spacing="6" text-anchor="middle">SKILL TREE</text>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+<path d="M350 52H510L520 62V86L510 96H350L340 86V62Z" fill="#160d29" stroke="#c4b5fd"/>
+<text x="430" y="70" font-size="9" fill="#9b95b8" text-anchor="middle" letter-spacing="3">PLAYER</text>
+<text x="430" y="87" font-size="12" fill="#f5f3ff" text-anchor="middle">wesleysouza-lab</text>
+<g stroke="#8b5cf6" stroke-opacity="0.45" fill="none" stroke-width="1.5"><path d="M430 96V114"/><path d="M88 114H772"/><path d="M88 114V134"/><path d="M225 114V134"/><path d="M362 114V134"/><path d="M498 114V134"/><path d="M635 114V134"/><path d="M772 114V134"/></g>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="0.0s" repeatCount="indefinite" path="M430 96V114H88V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="0.3s" repeatCount="indefinite" path="M430 96V114H225V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="0.6s" repeatCount="indefinite" path="M430 96V114H362V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="0.9s" repeatCount="indefinite" path="M430 96V114H498V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite" path="M430 96V114H635V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#e879f9"><animateMotion dur="2.4s" begin="1.5s" repeatCount="indefinite" path="M430 96V114H772V134"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.5s" repeatCount="indefinite"/></circle>
+<path d="M34 134H150V262L142 270H26V142Z" fill="#0d0817" stroke="#a78bfa" stroke-opacity="0.75"/>
+<text x="36" y="154" font-size="10" font-weight="700" fill="#a78bfa" letter-spacing="1.5">PROGRAMMING</text>
+<line x1="36" y1="164" x2="140" y2="164" stroke="#a78bfa" stroke-opacity="0.3"/>
+<path d="M34 172H142V194H34Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="56" y="187" font-size="10.5" fill="#3b3354">Python</text>
+<rect x="40" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.033;0.058;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M34 172H142V194H34Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.6"/><path d="M44 178L49 183L44 188L39 183Z" fill="#a78bfa"/><text x="56" y="187" font-size="10.5" fill="#ede9fe">Python</text></g>
+<path d="M34 172H142V194H34Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.033;0.058;0.098;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M34 202H142V224H34Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="56" y="217" font-size="10.5" fill="#3b3354">JavaScript</text>
+<rect x="40" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.062;0.088;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M34 202H142V224H34Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.6"/><path d="M44 208L49 213L44 218L39 213Z" fill="#a78bfa"/><text x="56" y="217" font-size="10.5" fill="#ede9fe">JavaScript</text></g>
+<path d="M34 202H142V224H34Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.062;0.088;0.128;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M34 232H142V254H34Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="56" y="247" font-size="10.5" fill="#3b3354">SQL</text>
+<rect x="40" y="241" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.092;0.117;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M34 232H142V254H34Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.6"/><path d="M44 238L49 243L44 248L39 243Z" fill="#a78bfa"/><text x="56" y="247" font-size="10.5" fill="#ede9fe">SQL</text></g>
+<path d="M34 232H142V254H34Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.092;0.117;0.157;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M171 134H287V262L279 270H163V142Z" fill="#0d0817" stroke="#60a5fa" stroke-opacity="0.75"/>
+<text x="173" y="154" font-size="10" font-weight="700" fill="#60a5fa" letter-spacing="1.5">BACKEND</text>
+<line x1="173" y1="164" x2="277" y2="164" stroke="#60a5fa" stroke-opacity="0.3"/>
+<path d="M171 172H279V194H171Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="193" y="187" font-size="10.5" fill="#3b3354">FastAPI</text>
+<rect x="177" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.121;0.146;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M171 172H279V194H171Z" fill="#160d29" stroke="#60a5fa" stroke-opacity="0.6"/><path d="M181 178L186 183L181 188L176 183Z" fill="#60a5fa"/><text x="193" y="187" font-size="10.5" fill="#ede9fe">FastAPI</text></g>
+<path d="M171 172H279V194H171Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.121;0.146;0.186;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M171 202H279V224H171Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="193" y="217" font-size="10.5" fill="#3b3354">Poetry</text>
+<rect x="177" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.150;0.175;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M171 202H279V224H171Z" fill="#160d29" stroke="#60a5fa" stroke-opacity="0.6"/><path d="M181 208L186 213L181 218L176 213Z" fill="#60a5fa"/><text x="193" y="217" font-size="10.5" fill="#ede9fe">Poetry</text></g>
+<path d="M171 202H279V224H171Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.150;0.175;0.215;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M171 232H279V254H171Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="193" y="247" font-size="10.5" fill="#3b3354">Pytest</text>
+<rect x="177" y="241" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.179;0.204;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M171 232H279V254H171Z" fill="#160d29" stroke="#60a5fa" stroke-opacity="0.6"/><path d="M181 238L186 243L181 248L176 243Z" fill="#60a5fa"/><text x="193" y="247" font-size="10.5" fill="#ede9fe">Pytest</text></g>
+<path d="M171 232H279V254H171Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.179;0.204;0.244;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M308 134H424V262L416 270H300V142Z" fill="#0d0817" stroke="#c4b5fd" stroke-opacity="0.75"/>
+<text x="310" y="154" font-size="10" font-weight="700" fill="#c4b5fd" letter-spacing="1.5">FRONTEND</text>
+<line x1="310" y1="164" x2="414" y2="164" stroke="#c4b5fd" stroke-opacity="0.3"/>
+<path d="M308 172H416V194H308Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="330" y="187" font-size="10.5" fill="#3b3354">HTML5</text>
+<rect x="314" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.208;0.233;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M308 172H416V194H308Z" fill="#160d29" stroke="#c4b5fd" stroke-opacity="0.6"/><path d="M318 178L323 183L318 188L313 183Z" fill="#c4b5fd"/><text x="330" y="187" font-size="10.5" fill="#ede9fe">HTML5</text></g>
+<path d="M308 172H416V194H308Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.208;0.233;0.273;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M308 202H416V224H308Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="330" y="217" font-size="10.5" fill="#3b3354">CSS3</text>
+<rect x="314" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.237;0.262;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M308 202H416V224H308Z" fill="#160d29" stroke="#c4b5fd" stroke-opacity="0.6"/><path d="M318 208L323 213L318 218L313 213Z" fill="#c4b5fd"/><text x="330" y="217" font-size="10.5" fill="#ede9fe">CSS3</text></g>
+<path d="M308 202H416V224H308Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.237;0.262;0.302;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M308 232H416V254H308Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="330" y="247" font-size="10.5" fill="#3b3354">Playwright</text>
+<rect x="314" y="241" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.267;0.292;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M308 232H416V254H308Z" fill="#160d29" stroke="#c4b5fd" stroke-opacity="0.6"/><path d="M318 238L323 243L318 248L313 243Z" fill="#c4b5fd"/><text x="330" y="247" font-size="10.5" fill="#ede9fe">Playwright</text></g>
+<path d="M308 232H416V254H308Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.267;0.292;0.332;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M444 134H560V232L552 240H436V142Z" fill="#0d0817" stroke="#e879f9" stroke-opacity="0.75"/>
+<text x="446" y="154" font-size="10" font-weight="700" fill="#e879f9" letter-spacing="1.5">DATABASE</text>
+<line x1="446" y1="164" x2="550" y2="164" stroke="#e879f9" stroke-opacity="0.3"/>
+<path d="M444 172H552V194H444Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="466" y="187" font-size="10.5" fill="#3b3354">BigQuery</text>
+<rect x="450" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.296;0.321;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M444 172H552V194H444Z" fill="#160d29" stroke="#e879f9" stroke-opacity="0.6"/><path d="M454 178L459 183L454 188L449 183Z" fill="#e879f9"/><text x="466" y="187" font-size="10.5" fill="#ede9fe">BigQuery</text></g>
+<path d="M444 172H552V194H444Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.296;0.321;0.361;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M444 202H552V224H444Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="466" y="217" font-size="10.5" fill="#3b3354">SAP HANA</text>
+<rect x="450" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.325;0.350;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M444 202H552V224H444Z" fill="#160d29" stroke="#e879f9" stroke-opacity="0.6"/><path d="M454 208L459 213L454 218L449 213Z" fill="#e879f9"/><text x="466" y="217" font-size="10.5" fill="#ede9fe">SAP HANA</text></g>
+<path d="M444 202H552V224H444Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.325;0.350;0.390;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M581 134H697V292L689 300H573V142Z" fill="#0d0817" stroke="#93c5fd" stroke-opacity="0.75"/>
+<text x="583" y="154" font-size="10" font-weight="700" fill="#93c5fd" letter-spacing="1.5">DEVOPS</text>
+<line x1="583" y1="164" x2="687" y2="164" stroke="#93c5fd" stroke-opacity="0.3"/>
+<path d="M581 172H689V194H581Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="603" y="187" font-size="10.5" fill="#3b3354">Google Cloud</text>
+<rect x="587" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.354;0.379;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M581 172H689V194H581Z" fill="#160d29" stroke="#93c5fd" stroke-opacity="0.6"/><path d="M591 178L596 183L591 188L586 183Z" fill="#93c5fd"/><text x="603" y="187" font-size="10.5" fill="#ede9fe">Google Cloud</text></g>
+<path d="M581 172H689V194H581Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.354;0.379;0.419;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M581 202H689V224H581Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="603" y="217" font-size="10.5" fill="#3b3354">Cloud Run</text>
+<rect x="587" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.383;0.408;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M581 202H689V224H581Z" fill="#160d29" stroke="#93c5fd" stroke-opacity="0.6"/><path d="M591 208L596 213L591 218L586 213Z" fill="#93c5fd"/><text x="603" y="217" font-size="10.5" fill="#ede9fe">Cloud Run</text></g>
+<path d="M581 202H689V224H581Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.383;0.408;0.448;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M581 232H689V254H581Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="603" y="247" font-size="10.5" fill="#3b3354">GitHub Actions</text>
+<rect x="587" y="241" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.413;0.438;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M581 232H689V254H581Z" fill="#160d29" stroke="#93c5fd" stroke-opacity="0.6"/><path d="M591 238L596 243L591 248L586 243Z" fill="#93c5fd"/><text x="603" y="247" font-size="10.5" fill="#ede9fe">GitHub Actions</text></g>
+<path d="M581 232H689V254H581Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.413;0.438;0.477;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M581 262H689V284H581Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="603" y="277" font-size="10.5" fill="#3b3354">Git</text>
+<rect x="587" y="271" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.442;0.467;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M581 262H689V284H581Z" fill="#160d29" stroke="#93c5fd" stroke-opacity="0.6"/><path d="M591 268L596 273L591 278L586 273Z" fill="#93c5fd"/><text x="603" y="277" font-size="10.5" fill="#ede9fe">Git</text></g>
+<path d="M581 262H689V284H581Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.442;0.467;0.507;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M718 134H834V262L826 270H710V142Z" fill="#0d0817" stroke="#f0abfc" stroke-opacity="0.75"/>
+<text x="720" y="154" font-size="10" font-weight="700" fill="#f0abfc" letter-spacing="1.5">AUTOMATION</text>
+<line x1="720" y1="164" x2="824" y2="164" stroke="#f0abfc" stroke-opacity="0.3"/>
+<path d="M718 172H826V194H718Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="740" y="187" font-size="10.5" fill="#3b3354">Data pipelines</text>
+<rect x="724" y="181" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.471;0.496;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M718 172H826V194H718Z" fill="#160d29" stroke="#f0abfc" stroke-opacity="0.6"/><path d="M728 178L733 183L728 188L723 183Z" fill="#f0abfc"/><text x="740" y="187" font-size="10.5" fill="#ede9fe">Data pipelines</text></g>
+<path d="M718 172H826V194H718Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.471;0.496;0.536;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M718 202H826V224H718Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="740" y="217" font-size="10.5" fill="#3b3354">AI agents</text>
+<rect x="724" y="211" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.500;0.525;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M718 202H826V224H718Z" fill="#160d29" stroke="#f0abfc" stroke-opacity="0.6"/><path d="M728 208L733 213L728 218L723 213Z" fill="#f0abfc"/><text x="740" y="217" font-size="10.5" fill="#ede9fe">AI agents</text></g>
+<path d="M718 202H826V224H718Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.500;0.525;0.565;1" dur="12s" repeatCount="indefinite"/></path>
+<path d="M718 232H826V254H718Z" fill="#0b0814" stroke="#2a2140"/>
+<text x="740" y="247" font-size="10.5" fill="#3b3354">Linux (WSL)</text>
+<rect x="724" y="241" width="8" height="7" fill="none" stroke="#3b3354"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.529;0.554;0.95;1" dur="12s" repeatCount="indefinite"/><path d="M718 232H826V254H718Z" fill="#160d29" stroke="#f0abfc" stroke-opacity="0.6"/><path d="M728 238L733 243L728 248L723 243Z" fill="#f0abfc"/><text x="740" y="247" font-size="10.5" fill="#ede9fe">Linux (WSL)</text></g>
+<path d="M718 232H826V254H718Z" fill="none" stroke="#f5f3ff" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.529;0.554;0.594;1" dur="12s" repeatCount="indefinite"/></path>
+<text x="840" y="318" font-size="9" fill="#6b6585" text-anchor="end">skills unlock in order · only tools I actually use · no levels implied</text>
+</g></svg>

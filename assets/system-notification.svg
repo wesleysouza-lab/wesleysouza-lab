@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200" role="img" aria-label="System notification: system initialized, player identified, development environment loaded, quest: build something extraordinary">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f0a1c"/>
+      <stop offset="1" stop-color="#07060b"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <path d="M14 1H846L859 14V186L846 199H14L1 186V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/>
+  <path d="M1 30V14L14 1H44M816 1H846L859 14V30M859 170V186L846 199H816M44 199H14L1 186V170" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+    <path d="M330 16H530L540 26V38H320V26Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.8"/>
+    <circle cx="346" cy="27" r="7" fill="none" stroke="#c4b5fd"/>
+    <text x="346" y="31" font-size="10" font-weight="700" fill="#c4b5fd" text-anchor="middle">!</text>
+    <text x="440" y="31" font-size="11" fill="#ede9fe" letter-spacing="5" text-anchor="middle">NOTIFICATION</text>
+
+    <g font-size="14">
+      <text x="430" y="72" fill="#60a5fa" text-anchor="middle" letter-spacing="2" opacity="0">[ SYSTEM INITIALIZED ]
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.92;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <text x="430" y="100" fill="#ede9fe" text-anchor="middle" letter-spacing="2" opacity="0">PLAYER IDENTIFIED: <tspan fill="#c4b5fd">wesleysouza-lab</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.16;0.92;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <text x="430" y="128" fill="#ede9fe" text-anchor="middle" letter-spacing="2" opacity="0">DEVELOPMENT ENVIRONMENT LOADED
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.26;0.92;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+      </text>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.32;0.38;0.92;1" dur="12s" begin="0s" repeatCount="indefinite"/>
+        <text x="430" y="166" fill="#e879f9" text-anchor="middle" letter-spacing="2" filter="url(#glow)">QUEST: BUILD SOMETHING EXTRAORDINARY</text>
+        <text x="430" y="166" fill="#f5d0fe" text-anchor="middle" letter-spacing="2">QUEST: BUILD SOMETHING EXTRAORDINARY</text>
+      </g>
+    </g>
+  </g>
+</svg>

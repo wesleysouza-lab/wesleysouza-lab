@@ -1,54 +1,68 @@
-# Customizing the profile
+# Customizing the Player Evolution System
 
-## Publish
+## How the profile is built
 
-1. Create a **public** repo named exactly like your user: `wesleysouza-lab/wesleysouza-lab`.
-2. Copy `README.md` and the `assets/` folder to the repo root.
-3. Push. GitHub shows the README on your profile.
+| Section | Source | Updates |
+|:--|:--|:--|
+| Battle banner | `assets/banner-battle.svg` | static file, animated with SMIL |
+| Player Status, Level Up, Experience Log | `.github/scripts/player_stats.py` | daily, from real public GitHub data |
+| Shadow Army graph | Pac-Man Action + `.github/scripts/shadow_theme.py` | daily, from real contributions |
+| Notification, Skill Tree, Quests, Shadow units, Dungeon map | `assets/*.svg` | static files, edit by hand |
 
-Relative image paths (`assets/...`) work on the repo and on the profile page.
+The daily workflow (`.github/workflows/pacman.yml`, "Update the Player system") writes the generated files to the `output` branch. If any step fails, nothing is published and the previous images stay up.
 
-## Placeholders to fill (search for `TODO`)
+The banner hunter and the creature are original silhouettes drawn for this profile. No character art from the anime is used.
 
-- Role, LinkedIn URL, portfolio URL.
-- The three project cards (name, description, stack, repo link). Use public repos only.
-- Remove from the tech stack table anything you do not really use.
+## Level, rank and XP
 
-## Colors
+All inputs come from the public GitHub API. The result is a symbolic gamification, not a professional rank.
+
+```
+XP    = contributions in the last 365 days × 10
+      + public repositories (not forks)  × 50
+      + stars across public repositories × 25
+LEVEL = 1 + floor(sqrt(XP / 50))      # level L starts at 50 × (L-1)² XP
+RANK  = E (Lv 1-4) · D (5-9) · C (10-19) · B (20-34) · A (35-49) · S (50+)
+```
+
+Achievements unlock from the same data: first public repository, 10 and 100 contributions in a year, 5 public repositories, first star, a 7-day streak.
+
+To change the weights, thresholds or achievements, edit the constants at the top of `player_stats.py` and `summarize()`. To change name, class or title, edit `PROFILE`.
+
+Preview locally without calling the API:
+
+```bash
+gh api graphql -f query='query($login:String!){user(login:$login){repositories(ownerAffiliations:OWNER,privacy:PUBLIC,first:100){nodes{isFork stargazerCount primaryLanguage{name}}} contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}' -f login=wesleysouza-lab --jq '.data.user' > user.json
+python3 .github/scripts/player_stats.py out --input user.json
+```
+
+## Palette
 
 | Token | Hex | Use |
 |:--|:--|:--|
-| Background | `#07090d` / `#080c11` | panels |
-| Cyan | `#22d3ee` | main tech color, borders |
-| Amber | `#f59e0b` | highlights, IDs |
-| Red | `#ef4444` | rare alert accents |
-| Text | `#e2e8f0` / `#94a3b8` | primary / secondary |
+| Void | `#07060b` / `#0f0a1c` | backgrounds |
+| Violet | `#8b5cf6` / `#a78bfa` / `#c4b5fd` | frames, primary accents |
+| Spectral blue | `#60a5fa` | status, the player |
+| Cold white | `#f5f3ff` / `#ede9fe` | text |
+| Magenta | `#e879f9` | level up, rare highlights |
 
-Change a color by search and replace across `assets/*.svg` and the badge URLs (`22d3ee`).
+## Static files
 
-## Editing the SVGs
+- `banner-battle.svg`: the 4 s combat loop (lunge, slash, knockback) and the system window. Player, name and class are plain `<text>`.
+- `system-notification.svg`: four lines on a 12 s loop.
+- `skill-tree.svg`: six categories; skills unlock in order. Keep only tools you really use.
+- `quest-*.svg`: one card per quest (daily, main, side, completed). The link is set in the README, around each image.
+- `shadow-units.svg`: Vesper, Onyx and Umbra are original names. Replace each "TODO: public repo" with the project the unit represents.
+- `dungeon-map.svg`, `quest-panels.svg`, `system-divider.svg`: decoration and the data-flow diagram.
 
-- `header.svg`: text lines are plain `<text>` elements. The name is the large title and the handle is on the `HANDLE:` line.
-- `operator-core.svg`: the radar polygon uses center-based coordinates (radius 100 = max). Move the five points to change the shape. The values are self-assessed, keep them honest.
-- `console.svg`: edit the `<text>` lines. Keep messages factual, no fake metrics.
-- `architecture.svg`: five boxes (`rect` + two `text` lines each). Rename them to your real flow.
+GitHub renders SMIL animation inside SVG images, but blocks web fonts, JavaScript and clicks inside them. Links work only on the `<a>` around an image.
 
-SVG fonts fall back to a system monospace, because GitHub blocks web fonts inside images.
+## Publication checklist
 
-## Telemetry without third parties
-
-The cards in section 06 use `github-readme-stats` and `github-readme-activity-graph` public instances, which are rate limited and sometimes down. For a version you control, add a GitHub Action that generates SVGs into the repo on a schedule (for example `lowlighter/metrics`, which needs a personal token stored as a repo secret). Then point the `<img>` tags at the generated files in `assets/`.
-
-## Pac-Man simulation (section 07)
-
-1. Copy `.github/workflows/pacman.yml` to the same path in the profile repo.
-2. In the repo, go to Settings, Actions, General, Workflow permissions, and allow read and write.
-3. Open the Actions tab, pick "Generate Pac-Man contribution graph" and click "Run workflow". It creates the `output` branch with `pacman-contribution-graph-dark.svg`.
-4. The README image only shows after that first run. It then refreshes daily at 03:00 UTC.
-
-The Pac-Man action is referenced on `@main` (the project does not publish version tags), so its behavior can change without notice. Pin it to a commit SHA once it works.
-
-## Notes
-
-- GitHub does not run JavaScript or custom CSS in READMEs. The only motion is SMIL animation inside the SVGs (pulse, radar sweep, cursor). Remove the `<animate>` tags for a fully static look.
-- Do not list employer-internal repos, client names or private data in cards or the diagram.
+- [ ] Replace every `TODO`: `PROFILE["title"]` in `player_stats.py`, LinkedIn, portfolio, quests main and side, shadow units.
+- [ ] Quests and units list public repos only. No employer code, client names or private data.
+- [ ] Remove from the skill tree anything you do not use.
+- [ ] Settings, Actions, General: workflow permissions set to read and write.
+- [ ] After merging, run "Update the Player system" once from the Actions tab.
+- [ ] Open the profile with Ctrl+F5 (images are cached for a few minutes) and check desktop and phone width.
+- [ ] Pin the Actions to commit SHAs once everything is stable.

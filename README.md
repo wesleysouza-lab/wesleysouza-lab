@@ -1,183 +1,111 @@
-<!-- Profile README for github.com/wesleysouza-lab/wesleysouza-lab. See CUSTOMIZE.md. Items marked TODO are placeholders. -->
+<!-- Shadow Monarch: Player Evolution System for github.com/wesleysouza-lab. See CUSTOMIZE.md. Items marked TODO are placeholders. -->
 
 <div align="center">
-  <img src="assets/header.svg" alt="Wesley Souza, developer profile header" width="100%">
+  <img src="assets/banner-battle.svg" alt="Battle scene: an original hooded shadow hunter strikes a dungeon creature. System window: player wesleysouza-lab, class Shadow Monarch, system online, level up, new quest available." width="100%">
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/system-divider.svg" alt="" width="100%">
 
-## `// 01 · OPERATOR PROFILE`
+## `PLAYER STATUS`
 
-<table>
-<tr>
-<td valign="top" width="60%">
+<!-- Rendered daily from real public GitHub data by .github/scripts/player_stats.py -->
+<img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/player-status.svg" alt="Player status: level, rank and XP computed daily from public GitHub activity" width="100%">
 
-<img src="assets/operator-card.svg" alt="Operator ID card: Wesley Souza, @wesleysouza-lab, AI and Technology team at RBBR, role TODO, based in Brazil (UTC-3), Portuguese and English" width="100%">
+<img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/level-up.svg" alt="Level up system: rank track from E to S and achievements unlocked by real milestones" width="100%">
+
+<sub>Level, rank and XP are a symbolic gamification of public GitHub activity, not a professional rank. The formula is in <a href="CUSTOMIZE.md">CUSTOMIZE.md</a>.</sub>
 
 I build the data and automation layer that turns operational systems into
-decisions: pipelines, APIs and dashboards. I like boring, verifiable
-engineering: tests first, small PRs and no secrets in code.
+decisions: pipelines, APIs and dashboards. Tests first, small pull requests,
+no secrets in code, and a human decides every merge.
 
-**Specialties:** data pipelines · BigQuery · FastAPI services · internal dashboards · AI-assisted workflows
+<img src="assets/system-divider.svg" alt="" width="100%">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-TODO-0b1118?style=flat-square&logo=linkedin&logoColor=22d3ee&labelColor=0b1118&color=0e3a44)](https://www.linkedin.com/in/TODO)
-[![Email](https://img.shields.io/badge/Email-wesley.souza@rbbr.com.br-0b1118?style=flat-square&logo=gmail&logoColor=22d3ee&labelColor=0b1118&color=0e3a44)](mailto:wesley.souza@rbbr.com.br)
-[![Portfolio](https://img.shields.io/badge/Portfolio-TODO-0b1118?style=flat-square&logo=googlechrome&logoColor=22d3ee&labelColor=0b1118&color=0e3a44)](https://TODO.example.com)
+## `SYSTEM NOTIFICATION`
 
-</td>
-<td valign="top" width="40%" align="center">
-<img src="assets/operator-core.svg" alt="Focus map: Python, Data, Cloud, AI, Backend" width="100%">
-</td>
-</tr>
-</table>
+<img src="assets/system-notification.svg" alt="System notification: system initialized, player identified, development environment loaded, quest: build something extraordinary" width="100%">
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/system-divider.svg" alt="" width="100%">
 
-## `// 02 · SYSTEM CONSOLE`
+## `SKILL TREE`
 
-<img src="assets/console.svg" alt="Console: system initialized, developer environment ready, engineering modules loaded" width="100%">
+<img src="assets/skill-tree.svg" alt="Skill tree. Programming: Python, JavaScript, SQL. Backend: FastAPI, Poetry, Pytest. Frontend: HTML5, CSS3, Playwright. Database: BigQuery, SAP HANA. DevOps: Google Cloud, Cloud Run, GitHub Actions, Git. Automation: data pipelines, AI agents, Linux (WSL)." width="100%">
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/system-divider.svg" alt="" width="100%">
 
-## `// 03 · NEURAL NETWORK · TECH STACK`
+## `QUEST DATABASE`
 
-<!-- TODO: remove anything you do not actually use. -->
+<img src="assets/quest-panels.svg" alt="Dungeon database, quest log" width="100%">
 
-| Module | Technologies |
-|:--|:--|
-| **Programming languages** | ![Python](https://img.shields.io/badge/Python-0b1118?style=flat-square&logo=python&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![JavaScript](https://img.shields.io/badge/JavaScript-0b1118?style=flat-square&logo=javascript&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![SQL](https://img.shields.io/badge/SQL-0b1118?style=flat-square&logo=postgresql&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-| **Frontend engineering** | ![HTML5](https://img.shields.io/badge/HTML5-0b1118?style=flat-square&logo=html5&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![CSS3](https://img.shields.io/badge/CSS3-0b1118?style=flat-square&logo=css3&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Playwright](https://img.shields.io/badge/Playwright-0b1118?style=flat-square&logo=playwright&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-| **Backend systems** | ![FastAPI](https://img.shields.io/badge/FastAPI-0b1118?style=flat-square&logo=fastapi&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Poetry](https://img.shields.io/badge/Poetry-0b1118?style=flat-square&logo=poetry&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Pytest](https://img.shields.io/badge/Pytest-0b1118?style=flat-square&logo=pytest&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-| **Databases** | ![BigQuery](https://img.shields.io/badge/BigQuery-0b1118?style=flat-square&logo=googlebigquery&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![SAP HANA](https://img.shields.io/badge/SAP%20HANA-0b1118?style=flat-square&logo=sap&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-| **DevOps & infrastructure** | ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-0b1118?style=flat-square&logo=googlecloud&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Cloud Run](https://img.shields.io/badge/Cloud%20Run-0b1118?style=flat-square&logo=googlecloud&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0b1118?style=flat-square&logo=githubactions&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-| **Tools & workflow** | ![Git](https://img.shields.io/badge/Git-0b1118?style=flat-square&logo=git&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Linux](https://img.shields.io/badge/Linux%20(WSL)-0b1118?style=flat-square&logo=linux&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Claude Code](https://img.shields.io/badge/Claude%20Code-0b1118?style=flat-square&logo=anthropic&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) ![Obsidian](https://img.shields.io/badge/Obsidian-0b1118?style=flat-square&logo=obsidian&logoColor=22d3ee&labelColor=0b1118&color=0e3a44) |
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## `// 04 · SYSTEM ARCHITECTURE`
-
-<img src="assets/architecture.svg" alt="Data flow: sources to ingestion jobs to BigQuery to FastAPI on Cloud Run to dashboards, guarded by a CI quality gate" width="100%">
-
-<sub>Generic flow of the systems I work on. Internal repositories are private, so details are omitted on purpose.</sub>
-
-<details>
-<summary><code>INSPECT MODULE</code> · click a stage to expand</summary>
-<br>
-
-<details>
-<summary><b>01 · Sources</b> <code>SAP HANA · APIs · Sheets</code></summary>
-<br>Operational data comes from the ERP (SAP HANA), partner APIs and spreadsheets. Every source is read with the least access it needs, and credentials live in a secret manager, never in code.
-</details>
-
-<details>
-<summary><b>02 · Ingest</b> <code>Python · Poetry · Cloud Run</code></summary>
-<br>Each job is an independent Poetry project with its own <code>src/</code> and <code>tests/</code>, deployed to Cloud Run. Jobs validate external input before writing anything.
-</details>
-
-<details>
-<summary><b>03 · Store</b> <code>BigQuery</code></summary>
-<br>Data moves through layers: <code>raw</code> keeps what arrived, <code>core</code> cleans and models it, <code>dm</code> serves each business question.
-</details>
-
-<details>
-<summary><b>04 · Serve</b> <code>FastAPI · Cloud Run</code></summary>
-<br>Small FastAPI services expose the data to the interfaces, with authentication in front and one responsibility per service.
-</details>
-
-<details>
-<summary><b>05 · Interface</b> <code>Dashboards</code></summary>
-<br>Internal dashboards for operations teams. Front-end changes are checked with browser tests (Playwright) before they count as verified.
-</details>
-
-<details>
-<summary><b>CI · Quality gate</b> <code>ruff · tests · secrets scan</code></summary>
-<br>Every pull request is checked on the lines it changes: lint, tests with at least 80% coverage, secret scanning and complexity. A human decides every merge.
-</details>
-
-<details>
-<summary><b>AI agents</b> <code>Claude Code</code></summary>
-<br>Agents prepare changes and run checks. People review and decide.
-</details>
-
-</details>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## `// 05 · ACTIVE PROJECTS`
-
-<!-- TODO: replace with public repos. Do not list private or employer-internal code. -->
+<!-- Each card links to its repo. Use public repos only. XP rewards are symbolic. -->
 
 <table>
 <tr>
-<td valign="top" width="33%">
-<img src="assets/card-top.svg" alt="" width="100%"><br>
-<code>PRJ-001</code> · <b>TODO project name</b><br>
-<sub>One-line description of what it does and for whom.</sub><br>
-<sub><code>Python</code> <code>FastAPI</code></sub><br>
-<sub>🟢 active · <a href="https://github.com/wesleysouza-lab/TODO">repo</a></sub>
-</td>
-<td valign="top" width="33%">
-<img src="assets/card-top.svg" alt="" width="100%"><br>
-<code>PRJ-002</code> · <b>TODO project name</b><br>
-<sub>One-line description of what it does and for whom.</sub><br>
-<sub><code>Python</code> <code>BigQuery</code></sub><br>
-<sub>🟡 in progress · <a href="https://github.com/wesleysouza-lab/TODO">repo</a></sub>
-</td>
-<td valign="top" width="33%">
-<img src="assets/card-top.svg" alt="" width="100%"><br>
-<code>PRJ-003</code> · <b>TODO project name</b><br>
-<sub>One-line description of what it does and for whom.</sub><br>
-<sub><code>JavaScript</code> <code>HTML</code></sub><br>
-<sub>⚪ planned · <a href="https://github.com/wesleysouza-lab/TODO">repo</a></sub>
-</td>
+<td width="50%"><a href="https://github.com/wesleysouza-lab"><img src="assets/quest-daily.svg" alt="Daily quest: ship one meaningful change a day. Recurring." width="100%"></a></td>
+<td width="50%"><a href="https://github.com/wesleysouza-lab/TODO"><img src="assets/quest-main.svg" alt="Main quest: to be defined" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/wesleysouza-lab/TODO"><img src="assets/quest-side.svg" alt="Side quest: to be defined" width="100%"></a></td>
+<td width="50%"><a href="https://github.com/wesleysouza-lab/wesleysouza-lab"><img src="assets/quest-completed.svg" alt="Completed quest: wesleysouza-lab, this profile. Cleared." width="100%"></a></td>
 </tr>
 </table>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<details>
+<summary><code>DUNGEON MAP</code> · how data moves through the systems I build (expand)</summary>
+<br>
 
-## `// 06 · GITHUB TELEMETRY`
+<img src="assets/dungeon-map.svg" alt="Animated data flow: sources, ingestion jobs, BigQuery, FastAPI services and dashboards, guarded by a CI quality gate and assisted by AI agents" width="100%">
+
+<sub>Generic flow. Internal repositories are private, so details are omitted on purpose.</sub>
+
+</details>
+
+<img src="assets/system-divider.svg" alt="" width="100%">
+
+## `SHADOW ARMY`
+
+<img src="assets/shadow-units.svg" alt="Shadow army units: Vesper, core project; Onyx, automation project; Umbra, infrastructure project" width="100%">
+
+<!-- Generated daily by .github/workflows/pacman.yml from my real contributions, restyled by .github/scripts/shadow_theme.py -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/pacman-contribution-graph-dark.svg" alt="Shadow soldiers patrolling my real contribution graph" width="100%">
+</div>
+
+<sub>Every lit cell is a real contribution. The shadows patrol the graph and the player in blue collects them.</sub>
+
+<img src="assets/system-divider.svg" alt="" width="100%">
+
+## `EXPERIENCE POINTS`
+
+<img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/xp-log.svg" alt="Experience log: real contributions per month over the last year and the XP they earned" width="100%">
 
 <div align="center">
 
-<a href="https://github.com/wesleysouza-lab"><img height="165" alt="GitHub stats: commits, PRs, issues, stars" src="https://github-readme-stats.vercel.app/api?username=wesleysouza-lab&show_icons=true&hide_border=true&bg_color=080c11&title_color=22d3ee&icon_color=f59e0b&text_color=e2e8f0&ring_color=22d3ee&count_private=true"></a>
+<a href="https://github.com/wesleysouza-lab"><img height="165" alt="GitHub stats: commits, pull requests, issues, stars" src="https://github-readme-stats.vercel.app/api?username=wesleysouza-lab&show_icons=true&hide_border=true&bg_color=0d0b16&title_color=a78bfa&icon_color=e879f9&text_color=ede9fe&ring_color=8b5cf6&count_private=true"></a>
 
 </div>
 
 <details>
-<summary><code>ACTIVITY HISTORY</code> (expand)</summary>
+<summary><code>ACTIVITY LOG</code> (expand)</summary>
 <br>
 
-<img alt="Contribution graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=wesleysouza-lab&bg_color=080c11&color=e2e8f0&line=22d3ee&point=f59e0b&area=true&area_color=22d3ee&hide_border=true">
+<img alt="Contribution activity graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=wesleysouza-lab&bg_color=0d0b16&color=ede9fe&line=8b5cf6&point=e879f9&area=true&area_color=8b5cf6&hide_border=true">
 
-<sub>These cards come from public third-party services and can be slow or offline. If they are, the alt text is shown and nothing breaks. For a version with no external dependency, see "Telemetry without third parties" in CUSTOMIZE.md.</sub>
+<sub>These cards come from public third-party services and only see public activity. If a service is down, its alt text shows instead.</sub>
 
 </details>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/system-divider.svg" alt="" width="100%">
 
-## `// 07 · SIMULATION DECK`
+## `GUILD NETWORK`
 
-<!-- Generated daily by .github/workflows/pacman.yml from your real contributions. Empty until the first run. -->
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/pacman-contribution-graph-dark.svg" alt="Pac-Man simulation eating the contribution graph" width="100%">
-</div>
-
-<sub>Pac-Man plays on my real contribution graph. It is generated by a scheduled GitHub Action, not a live feed.</sub>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## `// 08 · COMMUNICATION PROTOCOL`
-
-| Channel | Address |
-|:--|:--|
-| LinkedIn | [TODO](https://www.linkedin.com/in/TODO) |
-| Email | [wesley.souza@rbbr.com.br](mailto:wesley.souza@rbbr.com.br) |
-| Portfolio | [TODO](https://TODO.example.com) |
-| GitHub | [@wesleysouza-lab](https://github.com/wesleysouza-lab) |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-TODO-0d0b16?style=flat-square&logo=linkedin&logoColor=a78bfa&labelColor=0d0b16&color=2e1065)](https://www.linkedin.com/in/TODO)
+[![Email](https://img.shields.io/badge/Email-wesley.souza@rbbr.com.br-0d0b16?style=flat-square&logo=gmail&logoColor=a78bfa&labelColor=0d0b16&color=2e1065)](mailto:wesley.souza@rbbr.com.br)
+[![Portfolio](https://img.shields.io/badge/Portfolio-TODO-0d0b16?style=flat-square&logo=googlechrome&logoColor=a78bfa&labelColor=0d0b16&color=2e1065)](https://TODO.example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@wesleysouza--lab-0d0b16?style=flat-square&logo=github&logoColor=a78bfa&labelColor=0d0b16&color=2e1065)](https://github.com/wesleysouza-lab)
 
 <div align="center">
 
-<sub><code>SYSTEM STANDING BY</code></sub>
+<sub><code>THE PLAYER CONTINUES TO LEVEL UP.</code></sub>
 
 </div>
