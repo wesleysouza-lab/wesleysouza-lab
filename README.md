@@ -71,7 +71,7 @@ no secrets in code, and a human decides every merge.
   <img src="https://raw.githubusercontent.com/wesleysouza-lab/wesleysouza-lab/output/pacman-contribution-graph-dark.svg" alt="Shadow soldiers patrolling my real contribution graph" width="100%">
 </div>
 
-<sub>Every lit cell is a real contribution. The shadows patrol the graph and the player in blue collects them.</sub>
+<sub>Every lit cell is a real contribution. The shadows patrol the graph and the glowing violet player collects them.</sub>
 
 <img src="assets/system-divider.svg" alt="" width="100%">
 

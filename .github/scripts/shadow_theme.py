@@ -28,8 +28,10 @@ PALETTE = {
     "#39d353": "#a855f7",
     "#8b949e": "#9b95b8",
     "#ffffff": "#5b3a9a",
-    '"yellow"': '"#60a5fa"',
 }
+# Named colors the generator uses for the player and its power-up blink.
+NAMED_COLORS = {"yellow": "#d8b4fe", "red": "#e879f9"}
+COLOR_ATTRIBUTE = re.compile(r'\b(fill|values)="([^"]*)"')
 
 SYMBOL = re.compile(
     r'(<symbol id="(ghost-[a-z-]+)" viewBox="0 0 20 20">)\s*<image [^>]*/>\s*(</symbol>)'
@@ -71,7 +73,13 @@ def convert(svg: str) -> tuple[str, int]:
     svg, count = SYMBOL.subn(lambda m: f"{m[1]}{sprite(m[2])}{m[3]}", svg)
     for old, new in PALETTE.items():
         svg = svg.replace(old, new)
+    svg = COLOR_ATTRIBUTE.sub(recolor_named, svg)
     return svg, count
+
+
+def recolor_named(match: re.Match) -> str:
+    tokens = [NAMED_COLORS.get(token, token) for token in match[2].split(";")]
+    return f'{match[1]}="{";".join(tokens)}"'
 
 
 def main(paths: list[str]) -> None:
