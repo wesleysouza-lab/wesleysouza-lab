@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" width="860" height="330" role="img" aria-label="Player status. Level 3, rank E, 200 XP. 15 contributions in the last year, 1 public repositories, 0 stars, best streak 1 days. Symbolic, computed from public GitHub activity.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0a1c"/><stop offset="1" stop-color="#07060b"/></linearGradient><linearGradient id="xp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d28d9"/><stop offset="0.7" stop-color="#a78bfa"/><stop offset="1" stop-color="#60a5fa"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter></defs><path d="M14 1H846L859 14V316L846 329H14L1 316V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/><path d="M1 30V14L14 1H44M816 1H846L859 14V30M859 300V316L846 329H816M44 329H14L1 316V300" fill="none" stroke="#c4b5fd" stroke-width="2"/><path d="M387 16H473L483 26V38H377V26Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.8"/><text x="430" y="31" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12" fill="#ede9fe" letter-spacing="6" text-anchor="middle">STATUS</text>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+<text x="36" y="78" font-size="12" fill="#9b95b8">PLAYER</text>
+<text x="130" y="78" font-size="13" fill="#c4b5fd">wesleysouza-lab</text>
+<text x="36" y="106" font-size="12" fill="#9b95b8">NAME</text>
+<text x="130" y="106" font-size="13" fill="#f5f3ff">Wesley Souza</text>
+<text x="36" y="134" font-size="12" fill="#9b95b8">CLASS</text>
+<text x="130" y="134" font-size="13" fill="#ede9fe">Data Engineer</text>
+<text x="36" y="162" font-size="12" fill="#9b95b8">TITLE</text>
+<text x="130" y="162" font-size="13" fill="#e879f9">TODO: your title</text>
+<text x="36" y="190" font-size="12" fill="#9b95b8">STATUS</text>
+<circle cx="135" cy="185" r="4" fill="#60a5fa"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="146" y="190" font-size="13" fill="#60a5fa" letter-spacing="2">EVOLVING</text>
+<text x="520" y="70" font-size="11" fill="#60a5fa" letter-spacing="4" text-anchor="middle">LEVEL</text>
+<text x="520" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="84" font-weight="800" fill="#8b5cf6" text-anchor="middle" filter="url(#glow)" opacity="0.8">3</text>
+<text x="520" y="150" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="84" font-weight="800" fill="#f5f3ff" text-anchor="middle">3</text>
+<g transform="translate(700 112)">
+<polygon points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="0.2;0.55;0.2" dur="3s" repeatCount="indefinite"/></polygon>
+<polygon points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26" fill="#120b22" stroke="#c4b5fd" stroke-width="1.5"/>
+<text y="17" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="800" fill="#f5f3ff" text-anchor="middle">E</text>
+<text y="74" font-size="10" fill="#c4b5fd" text-anchor="middle" letter-spacing="4">RANK</text>
+</g>
+<path d="M36 212H222V252H36Z" fill="#120d1f" stroke="#8b5cf6" stroke-opacity="0.35"/>
+<text x="48" y="229" font-size="9" fill="#9b95b8" letter-spacing="2">CONTRIBUTIONS</text>
+<text x="48" y="246" font-size="9" fill="#6b6585">last 365 days</text>
+<text x="210" y="242" font-size="18" font-weight="700" fill="#f5f3ff" text-anchor="end">15</text>
+<path d="M234 212H420V252H234Z" fill="#120d1f" stroke="#8b5cf6" stroke-opacity="0.35"/>
+<text x="246" y="229" font-size="9" fill="#9b95b8" letter-spacing="2">PUBLIC REPOS</text>
+<text x="246" y="246" font-size="9" fill="#6b6585">not counting forks</text>
+<text x="408" y="242" font-size="18" font-weight="700" fill="#f5f3ff" text-anchor="end">1</text>
+<path d="M432 212H618V252H432Z" fill="#120d1f" stroke="#8b5cf6" stroke-opacity="0.35"/>
+<text x="444" y="229" font-size="9" fill="#9b95b8" letter-spacing="2">STARS</text>
+<text x="444" y="246" font-size="9" fill="#6b6585">across public repos</text>
+<text x="606" y="242" font-size="18" font-weight="700" fill="#f5f3ff" text-anchor="end">0</text>
+<path d="M630 212H816V252H630Z" fill="#120d1f" stroke="#8b5cf6" stroke-opacity="0.35"/>
+<text x="642" y="229" font-size="9" fill="#9b95b8" letter-spacing="2">BEST STREAK</text>
+<text x="642" y="246" font-size="9" fill="#6b6585">in the last year</text>
+<text x="804" y="242" font-size="18" font-weight="700" fill="#f5f3ff" text-anchor="end">1d</text>
+<text x="36" y="280" font-size="11" fill="#60a5fa" letter-spacing="3">EXPERIENCE</text>
+<text x="824" y="280" font-size="11" fill="#ede9fe" text-anchor="end">200 / 450 XP · next level</text>
+<rect x="36" y="288" width="788" height="10" rx="2" fill="#1d1533"/><rect x="36" y="288" width="0" height="10" rx="2" fill="url(#xp)"><animate attributeName="width" from="0" to="4" dur="1.6s" begin="0.3s" fill="freeze"/></rect><line x1="114" y1="288" x2="114" y2="298" stroke="#07060b" stroke-width="2"/><line x1="193" y1="288" x2="193" y2="298" stroke="#07060b" stroke-width="2"/><line x1="272" y1="288" x2="272" y2="298" stroke="#07060b" stroke-width="2"/><line x1="351" y1="288" x2="351" y2="298" stroke="#07060b" stroke-width="2"/><line x1="430" y1="288" x2="430" y2="298" stroke="#07060b" stroke-width="2"/><line x1="508" y1="288" x2="508" y2="298" stroke="#07060b" stroke-width="2"/><line x1="587" y1="288" x2="587" y2="298" stroke="#07060b" stroke-width="2"/><line x1="666" y1="288" x2="666" y2="298" stroke="#07060b" stroke-width="2"/><line x1="745" y1="288" x2="745" y2="298" stroke="#07060b" stroke-width="2"/>
+<text x="36" y="318" font-size="9" fill="#6b6585">symbolic gamification of public GitHub activity · not a professional rank · updated 2026-11-14</text>
+</g></svg>
