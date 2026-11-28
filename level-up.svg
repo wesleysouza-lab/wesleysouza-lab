@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" width="860" height="340" role="img" aria-label="Level up system. Rank track from E to S, current rank E at level 3. Achievements unlocked: Awakening, First Blood.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f0a1c"/><stop offset="1" stop-color="#07060b"/></linearGradient><linearGradient id="xp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d28d9"/><stop offset="0.7" stop-color="#a78bfa"/><stop offset="1" stop-color="#60a5fa"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter></defs><path d="M14 1H846L859 14V326L846 339H14L1 326V14Z" fill="url(#bg)" stroke="#8b5cf6" stroke-opacity="0.7"/><path d="M1 30V14L14 1H44M816 1H846L859 14V30M859 310V326L846 339H816M44 339H14L1 326V310" fill="none" stroke="#c4b5fd" stroke-width="2"/><path d="M337 16H522L532 26V38H327V26Z" fill="#160d29" stroke="#a78bfa" stroke-opacity="0.8"/><text x="430" y="31" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace" font-size="12" fill="#ede9fe" letter-spacing="6" text-anchor="middle">LEVEL UP SYSTEM</text>
+<g font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Courier New',monospace">
+<line x1="80" y1="92" x2="780" y2="92" stroke="#1d1533" stroke-width="3"/>
+<circle r="3" fill="#e879f9"><animateMotion dur="2.4s" repeatCount="indefinite" path="M80 92H140"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="80" cy="92" r="26" fill="none" stroke="#e879f9"><animate attributeName="r" values="26;40" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2s" repeatCount="indefinite"/></circle>
+<polygon points="80,66 103,79 103,105 80,118 57,105 57,79" fill="#2e1065" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="80" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#f5f3ff" text-anchor="middle">E</text>
+<text x="80" y="136" font-size="9" fill="#9b95b8" text-anchor="middle">Lv 1-4</text>
+<text x="80" y="54" font-size="9" fill="#e879f9" text-anchor="middle" letter-spacing="2">YOU ARE HERE</text>
+<polygon points="220,66 243,79 243,105 220,118 197,105 197,79" fill="#0d0817" stroke="#3b2d5c" stroke-width="1.5"/>
+<text x="220" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#4a4266" text-anchor="middle">D</text>
+<text x="220" y="136" font-size="9" fill="#6b6585" text-anchor="middle">Lv 5-9</text>
+<polygon points="360,66 383,79 383,105 360,118 337,105 337,79" fill="#0d0817" stroke="#3b2d5c" stroke-width="1.5"/>
+<text x="360" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#4a4266" text-anchor="middle">C</text>
+<text x="360" y="136" font-size="9" fill="#6b6585" text-anchor="middle">Lv 10-19</text>
+<polygon points="500,66 523,79 523,105 500,118 477,105 477,79" fill="#0d0817" stroke="#3b2d5c" stroke-width="1.5"/>
+<text x="500" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#4a4266" text-anchor="middle">B</text>
+<text x="500" y="136" font-size="9" fill="#6b6585" text-anchor="middle">Lv 20-34</text>
+<polygon points="640,66 663,79 663,105 640,118 617,105 617,79" fill="#0d0817" stroke="#3b2d5c" stroke-width="1.5"/>
+<text x="640" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#4a4266" text-anchor="middle">A</text>
+<text x="640" y="136" font-size="9" fill="#6b6585" text-anchor="middle">Lv 35-49</text>
+<polygon points="780,66 803,79 803,105 780,118 757,105 757,79" fill="#0d0817" stroke="#3b2d5c" stroke-width="1.5"/>
+<text x="780" y="101" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="800" fill="#4a4266" text-anchor="middle">S</text>
+<text x="780" y="136" font-size="9" fill="#6b6585" text-anchor="middle">Lv 50+</text>
+<text x="36" y="168" font-size="10" fill="#60a5fa" letter-spacing="3">ACHIEVEMENTS</text>
+<path d="M36 180H286V216H36Z" fill="#160d29" stroke="#a78bfa"/>
+<path d="M36 180H286V216H36Z" fill="none" stroke="#e879f9" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.06;0.25;1" dur="7s" begin="0.0s" repeatCount="indefinite"/></path>
+<path d="M50 198L54 203L62 192" fill="none" stroke="#e879f9" stroke-width="2"/>
+<text x="72" y="196" font-size="10" font-weight="700" fill="#f5f3ff" letter-spacing="1.5">AWAKENING</text>
+<text x="72" y="209" font-size="9" fill="#9b95b8">first public repository</text>
+<path d="M298 180H548V216H298Z" fill="#160d29" stroke="#a78bfa"/>
+<path d="M298 180H548V216H298Z" fill="none" stroke="#e879f9" stroke-width="2" opacity="0" filter="url(#glow)"><animate attributeName="opacity" values="0;0.9;0;0" keyTimes="0;0.06;0.25;1" dur="7s" begin="0.7s" repeatCount="indefinite"/></path>
+<path d="M312 198L316 203L324 192" fill="none" stroke="#e879f9" stroke-width="2"/>
+<text x="334" y="196" font-size="10" font-weight="700" fill="#f5f3ff" letter-spacing="1.5">FIRST BLOOD</text>
+<text x="334" y="209" font-size="9" fill="#9b95b8">10 contributions in a year</text>
+<path d="M36 224H286V260H36Z" fill="#0b0814" stroke="#2a2140"/>
+<rect x="49" y="240" width="12" height="10" rx="1" fill="none" stroke="#4a4266"/>
+<path d="M51 240V237A4 4 0 0 1 59 237V240" fill="none" stroke="#4a4266"/>
+<text x="72" y="240" font-size="10" font-weight="700" fill="#4a4266" letter-spacing="1.5">HUNDRED STRIKES</text>
+<text x="72" y="253" font-size="9" fill="#3b3354">100 contributions in a year</text>
+<path d="M298 224H548V260H298Z" fill="#0b0814" stroke="#2a2140"/>
+<rect x="311" y="240" width="12" height="10" rx="1" fill="none" stroke="#4a4266"/>
+<path d="M313 240V237A4 4 0 0 1 321 237V240" fill="none" stroke="#4a4266"/>
+<text x="334" y="240" font-size="10" font-weight="700" fill="#4a4266" letter-spacing="1.5">SHADOW EXTRACTION</text>
+<text x="334" y="253" font-size="9" fill="#3b3354">5 public repositories</text>
+<path d="M36 268H286V304H36Z" fill="#0b0814" stroke="#2a2140"/>
+<rect x="49" y="284" width="12" height="10" rx="1" fill="none" stroke="#4a4266"/>
+<path d="M51 284V281A4 4 0 0 1 59 281V284" fill="none" stroke="#4a4266"/>
+<text x="72" y="284" font-size="10" font-weight="700" fill="#4a4266" letter-spacing="1.5">RECOGNIZED</text>
+<text x="72" y="297" font-size="9" fill="#3b3354">first star received</text>
+<path d="M298 268H548V304H298Z" fill="#0b0814" stroke="#2a2140"/>
+<rect x="311" y="284" width="12" height="10" rx="1" fill="none" stroke="#4a4266"/>
+<path d="M313 284V281A4 4 0 0 1 321 281V284" fill="none" stroke="#4a4266"/>
+<text x="334" y="284" font-size="10" font-weight="700" fill="#4a4266" letter-spacing="1.5">UNBROKEN</text>
+<text x="334" y="297" font-size="9" fill="#3b3354">7-day contribution streak</text>
+<g transform="translate(700 236)">
+<g><animateTransform attributeName="transform" type="scale" values="0.7;1.06;1;1;0.7" keyTimes="0;0.08;0.14;0.9;1" dur="6s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.08;0.14;0.9;1" dur="6s" repeatCount="indefinite"/>
+<path d="M-118 -54H108L118 -44V54H-108L-118 44Z" fill="#0f0a1c" stroke="#e879f9" stroke-opacity="0.8"/>
+<text y="-22" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#e879f9" text-anchor="middle" filter="url(#glow)">LEVEL UP!</text>
+<text y="-22" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="800" fill="#fdf4ff" text-anchor="middle">LEVEL UP!</text>
+<text y="2" font-size="11" fill="#ede9fe" text-anchor="middle" letter-spacing="2">LEVEL 3 · RANK E</text>
+<rect x="-100" y="16" width="200" height="10" rx="2" fill="#1d1533"/><rect x="-100" y="16" width="0" height="10" rx="2" fill="url(#xp)"><animate attributeName="width" values="0;4;4;0" keyTimes="0;0.35;0.9;1" dur="6s" repeatCount="indefinite"/></rect><line x1="-80" y1="16" x2="-80" y2="26" stroke="#07060b" stroke-width="2"/><line x1="-60" y1="16" x2="-60" y2="26" stroke="#07060b" stroke-width="2"/><line x1="-40" y1="16" x2="-40" y2="26" stroke="#07060b" stroke-width="2"/><line x1="-20" y1="16" x2="-20" y2="26" stroke="#07060b" stroke-width="2"/><line x1="0" y1="16" x2="0" y2="26" stroke="#07060b" stroke-width="2"/><line x1="20" y1="16" x2="20" y2="26" stroke="#07060b" stroke-width="2"/><line x1="40" y1="16" x2="40" y2="26" stroke="#07060b" stroke-width="2"/><line x1="60" y1="16" x2="60" y2="26" stroke="#07060b" stroke-width="2"/><line x1="80" y1="16" x2="80" y2="26" stroke="#07060b" stroke-width="2"/>
+<text y="44" font-size="9" fill="#9b95b8" text-anchor="middle">+10 XP per contribution</text>
+</g></g>
+</g></svg>
